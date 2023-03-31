@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  height: calc(100vh - 18px);
+  padding: 0 12px;
+}
+.firstGrid {
+  color: grey;
+  padding: 0.8rem;
+  font-size: 0.7rem;
+  margin-left: 5rem;
+}
+.firstGrid > p {
+  color: gray;
+  margin-left: 1.5rem;
+}
+.secondGrid {
+  padding: 1rem 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #37ecba, #72afd3);
+}
+img {
+  height: 50vh;
+}
+.info > * {
+  margin: 10px 0;
+}
+.line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+.btn1 {
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  font-family: monospace;
+  border: none;
+  background-color: white;
+  color: #37ecba;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in;
+}
+.btn1:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid black;
+}
+.thirdGrid {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.thirdGrid > * {
+  padding-bottom: 0.8rem;
+}
+.thirdGrid > .line2 {
+  display: inline-block;
+  width: 10%;
+  height: 2px;
+  padding: 0px;
+  margin-bottom: 0.8rem;
+  background-color: #8a7f7f;
+}
+.thirdGrid > p {
+  display: block;
+  text-align: center;
+  width: 45%;
+}
+.btn2 {
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  font-family: monospace;
+  border: none;
+  background-color: #37ecba;
+  color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in;
+}
+.btn2:hover {
+  background-color: transparent;
+  color: #37ecba;
+  border: 1px solid black;
+}
